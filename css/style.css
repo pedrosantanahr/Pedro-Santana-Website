@@ -149,7 +149,7 @@ body {
 
 .gallery-item {
     height: 250px;
-    border: 1px solid #555;
+    border: 2px solid #555;
     display: flex;
     align-items: center;
     justify-content: center;
