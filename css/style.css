@@ -10,8 +10,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #111111;
-    color: #0340b1;
+    background: #0a0a0a;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -24,7 +24,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 1000;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(10, 10, 10, 0.92);
 }
 
 .logo {
@@ -55,7 +55,7 @@ body {
     display: flex;
     align-items: center;
     padding: 120px 10% 80px;
-    background: linear-gradient(135deg, #111, #252525);
+    background: linear-gradient(135deg, #050505, #101b35);
 }
 
 .hero-content {
@@ -101,8 +101,8 @@ body {
 .section {
     padding: 120px 10%;
     min-height: 70vh;
-    background: #066196;
-    color: #111;
+    background: #101b35;
+    color: #ffffff;
 }
 
 .section h2 {
@@ -115,8 +115,8 @@ body {
 }
 
 .dark-section {
-    background: #181818;
-    color: #0340b1;
+    background: #0a0a0a;
+    color: #ffffff;
 }
 
 .music-card {
@@ -221,15 +221,62 @@ footer {
         object-fit: cover;
         display: block;
     }
+}
 
-    .spotify-profile {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        object-fit: cover;
-        display: block;
-        margin: 15px 0 25px;
-        cursor: pointer;
-    }
+.music-title {
+    position: relative;
+}
 
+.spotify-profile {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 900px;
+    top: -100px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-images {
+    position: relative;
+    height: 500px;
+    width: 600px;
+}
+
+.about-photo {
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.photo-one {
+    left: -30px;
+    top: 0;
+}
+
+.photo-two {
+    left: 280px;
+    top: 100px;
+}
+.button {
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: #0340b1;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(3, 64, 177, 0.35);
 }
